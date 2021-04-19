@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+     <title>PIZZA ITALIANO- Италиянская пицца </title>
+      <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+     <meta name="description" content="">
+     <meta name="keywords" content="">
+     <meta name="author" content="">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/font-awesome.min.css">
+     <link rel="stylesheet" href="css/animate.css">
+     <link rel="stylesheet" href="css/owl.carousel.css">
+     <link rel="stylesheet" href="css/owl.theme.default.min.css">
+     <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/templatemo-style.css">
+
+</head>
+<body>
+      
+      <section class="preloader">
+          <div class="spinner">
+
+               <span class="spinner-rotate"></span>
+               
+          </div>
+     </section>
+
+
+     <!-- Меню раздел -->
+     <section class="navbar custom-navbar navbar-fixed-top" role="navigation">
+          <div class="container">
+
+               <div class="navbar-header">
+                    <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                         <span class="icon icon-bar"></span>
+                         <span class="icon icon-bar"></span>
+                         <span class="icon icon-bar"></span>
+                    </button>
+
+                    <!-- Логотип -->
+                    <a href="index.html" class="navbar-brand"> PIZZA <span>.</span>ITALIANO</a>
+               </div>
+
+               <!-- Верхняя меню -->
+               <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-nav-first">
+                         <li><a href="#home" class="smoothScroll">Главная</a></li>
+                         <li><a href="#about" class="smoothScroll">О нас</a></li>
+                         <li><a href="#team" class="smoothScroll">Меню</a></li>
+                         <li><a href="#contact" class="smoothScroll">Контакты</a></li>
+                    </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                         <!-- <li><a href="#">Call Now! <i class="fa fa-phone"></i> 010 020 0340</a></li> -->
+                         <a href="tel:+375259679824" class="section-btn"> <i class="fa fa-phone"> </i> +375 25 967-98-24 </a>
+                    </ul>
+               </div>
+
+          </div>
+     </section>
+
+
+     <!-- Баннер -->
+     <section id="home" class="slider" data-stellar-background-ratio="0.5">
+         
+          <div class="row">
+
+                    <div class="owl-carousel owl-theme">
+                         <div class="item item-first">
+                              <div class="caption">
+                                   <div class="container">
+                                        <div class="col-md-8 col-sm-12">
+                                             <h3>Только настроящие итальянские ингредиенты</h3>
+                                             <h1>Наша миссия - подарить незабываемые впечатления</h1>
+                                             <a href="#team" class="section-btn btn btn-default smoothScroll">Заказать</a>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+
+                         <div class="item item-second">
+                              <div class="caption">
+                                   <div class="container">
+                                        <div class="col-md-8 col-sm-12">
+                                             <!-- <h3>Ваш идеальный завтрак</h3> -->
+                                             <h1>Мы добавляем только оригинальные ингредиенты!</h1>
+                                             <a href="#menu" class="section-btn btn btn-default smoothScroll">Заказать</a>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+
+                          
+
+          </div>
+     </section>
+ 
+
+
+     <!-- О компании -->
+     <section id="about" data-stellar-background-ratio="0.5">
+          <div class="container">
+               <div class="row">
+
+<div class="col-md-4">
+
+ <img src="images/about.jpg" class="img-responsive" alt="">
+</div>
+  <div class="col-md-4">
+ <img src="images/about.jpg" class="img-responsive" alt="">
+
+  </div>
+  <div class="col-md-4">
+
+ <img src="images/about.jpg" class="img-responsive" alt="">
+  </div>
+
+                   
+                    
+                    
+               </div>
+          </div>
+     </section>
+
+
+     <!-- Меню -->
+     <section id="team" data-stellar-background-ratio="0.5">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-12 col-sm-12">
+                         <div class="section-title wow fadeInUp" data-wow-delay="0.1s">
+                              <h2>Пицца</h2>
+                             
+                         </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4">
+                         <div class="team-thumb wow fadeInUp" data-wow-delay="0.2s">
+                              <img src="images/tovar1.jpg" class="img-responsive" alt="">
+                                   <div class="team-hover">
+                                        <div class="team-item">
+                                             <h4>Ваш заказ</h4> 
+                                             <ul class="social-icon">
+										<form action="php/tovar1.php" method="post"    role="form" data-wow-delay="0.8s">
+                                             		<input type="text"   class="orderForm" name="name" placeholder="Ваше имя" required>
+                                             		<input type="text"   class="orderForm" name="num" placeholder="Мобильный номер" required>
+                                             		<input type="text"   class="orderForm"  name="adr" placeholder="Адрес"required>
+                                             		<select  name="sizepz" class="orderForm">
+  													  <option disabled>Размер пиццы</option>
+  													  <option style="color: #333">23 см</option>
+  													  <option style="color: #333">30 см</option>
+  													  <option style="color: #333">40 см</option>
+ 	 												</select>
+                                             		<button type="submit" class="form-control"  style="border-radius: 6px" name="submit">Заказать</button>
+										</form>
+                                                  
+                                             </ul>
+                                        </div>
+                                   </div>
+                         </div>
+                         <div class="team-info">
+                              <h3>1+1 Бургер-пепперони</h3>
+                              <p>Cладкий горчичный соус, охотничьи колбаски, свежие шампиньоны, свежий лук</p>
+                             <h4 style="color: red">24 рублей</h4>
+
+                         </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4">
+                         <div class="team-thumb wow fadeInUp" data-wow-delay="0.2s">
+                              <img src="images/tovar2.jpg" class="img-responsive" alt="">
+                                   <div class="team-hover">
+                                        <div class="team-item">
+                                             <h4>Ваш заказ</h4> 
+                                             <ul class="social-icon">
+											<form action="php/tovar2.php" method="post"    role="form" data-wow-delay="0.8s">
+                                             		<input type="text"   class="orderForm" name="name" placeholder="Ваше имя"required>
+                                             		<input type="text"   class="orderForm" name="num" placeholder="Мобильный номер" required>
+                                             		<input type="text"   class="orderForm"  name="adr" placeholder="Адрес"required>
+                                             		<select  name="sizepz" class="orderForm">
+  													  <option disabled>Размер пиццы</option>
+  													  <option style="color: #333">23 см</option>
+  													  <option style="color: #333">30 см</option>
+  													  <option style="color: #333">40 см</option>
+ 	 												</select>
+                                             		<button type="submit" class="form-control"  style="border-radius: 6px" name="submit">Заказать</button>
+											</form>
+                                                  
+                                             </ul>
+                                        </div>
+                                   </div>
+                         </div>
+                         <div class="team-info">
+                              <h3>1+1 Мясная-охотничья</h3>
+                              <p>Cоус гриль, свежие томаты, свежий лук, сыр моцарелла, базилик</p>
+                             <h4 style="color: red">18 рублей</h4>
+
+                         </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4">
+                         <div class="team-thumb wow fadeInUp" data-wow-delay="0.2s">
+                              <img src="images/tovar3.jpg" class="img-responsive" alt="">
+                                   <div class="team-hover">
+                                        <div class="team-item">
+                                             <h4>Ваш заказ</h4> 
+                                             <ul class="social-icon">
+											<form action="php/tovar3.php" method="post"    role="form" data-wow-delay="0.8s">
+                                             		<input type="text"   class="orderForm" name="name" placeholder="Ваше имя"required>
+                                             		<input type="text"   class="orderForm" name="num" placeholder="Мобильный номер" required>
+                                             		<input type="text"   class="orderForm"  name="adr" placeholder="Адрес"required>
+                                             		<select  name="sizepz" class="orderForm">
+  													  <option disabled>Размер пиццы</option>
+  													  <option style="color: #333">23 см</option>
+  													  <option style="color: #333">30 см</option>
+  													  <option style="color: #333">40 см</option>
+ 	 												</select>
+                                             		<button type="submit" class="form-control"  style="border-radius: 6px" name="submit">Заказать</button>
+											</form>
+                                                  
+                                             </ul>
+                                        </div>
+                                   </div>
+                         </div>
+                         <div class="team-info">
+                              <h3>1+1 Цыпленок</h3>
+                              <p>Крылышки куринные,сливочный сыр, омлет Тамаго, томат, стружка тунца</p>
+                             <h4 style="color: red">16 рублей</h4>
+
+                         </div>
+                    </div>
+                    
+               </div>
+          </div>
+     </section>
+       
+
+
+     <!-- Отзывы -->
+     <section id="testimonial" data-stellar-background-ratio="0.5">
+          <div class="overlay"></div>
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-12 col-sm-12">
+                         <div class="section-title wow fadeInUp" data-wow-delay="0.1s">
+                              <h2>Отзывы</h2>
+                         </div>
+                    </div>  
+
+                    <div class="col-md-offset-2 col-md-8 col-sm-12">
+                         <div class="owl-carousel owl-theme">
+                              <div class="item">
+                                   <p>Вкусно готовят. Быстро доставили. Рекомендую!!!</p>
+                                        <div class="tst-author">
+                                             
+                                             <span>Андрей</span>
+                                        </div>
+                              </div>
+
+                              <div class="item">
+                                   <p>Спасибо за пиццу. Доставили очень быстро!</p>
+                                        <div class="tst-author">
+                                              
+                                             <span>Саша</span>
+                                        </div>
+                              </div>
+
+                              
+
+                         </div>
+                    </div>
+
+               </div>
+          </div>
+     </section>  
+
+
+     <!-- Контакты -->
+     <section id="contact" data-stellar-background-ratio="0.5">
+          <div class="container">
+               <div class="row">
+	 
+                    <div class="wow fadeInUp col-md-6 col-sm-12" data-wow-delay="0.4s">
+                         <div id="google-map">
+                              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1798.3631031097343!2d27.5876912119281!3d53.93018216233435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcf0cd2d82d49%3A0xdce1d04bf0bdffe2!2z0J7QsdGJ0LXQttC40YLQuNC1IOKEliAyINCR0JPQo9CY0KA!5e0!3m2!1sru!2sby!4v1613479802040!5m2!1sru!2sby" allowfullscreen></iframe>
+                         </div>
+                    </div>    
+
+                    <div class="col-md-6 col-sm-12">
+
+                         <div class="col-md-12 col-sm-12">
+                              <div class="section-title wow fadeInUp" data-wow-delay="0.1s">
+                                   <h2>Оставить отзыв</h2>
+                              </div>
+                         </div>
+
+                         <!-- Форма обратная связь -->
+                         <form action="php/otziv.php" method="post" class="wow fadeInUp" id="contact-form" role="form" data-wow-delay="0.8s">
+
+                                                        
+                           
+                              <div class="col-md-6 col-sm-6">
+                                   <input type="text" class="form-control"  name="name" placeholder="Ваше имя" required>
+                              </div>
+
+                              <div class="col-md-6 col-sm-6">
+                                   <input type="email" class="form-control"   name="email" placeholder="E-mail" required>
+                              </div>
+
+                              <div class="col-md-12 col-sm-12">
+                                   
+                                   <textarea class="form-control" rows="6"   name="message" placeholder="Ваш отзыв о нашей работе"  required></textarea>
+
+                                   <button type="submit" class="form-control" id="cf-submit" name="submit">Отправить</button>
+                              </div>
+                         </form>
+                    </div>
+
+               </div>
+          </div>
+     </section>          
+
+
+     <!-- Футер -->
+     <footer id="footer" data-stellar-background-ratio="0.5">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-3 col-sm-8">
+                         <div class="footer-info">
+                              <div class="section-title">
+                                   <h2 class="wow fadeInUp" data-wow-delay="0.2s"> PIZZA <span style="color: red">.</span>ITALIANO</h2>
+                              </div>
+                              <address class="wow fadeInUp" data-wow-delay="0.4s">
+                                   <p>Быстрая доставка пицц. <br/>Закажите прямо сейчай </p>
+                              </address>
+                         </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-8">
+                         <div class="footer-info">
+                              <div class="section-title">
+                                   <h2 class="wow fadeInUp" data-wow-delay="0.2s">Выполнили:</h2>
+
+                              </div>
+                              <address class="wow fadeInUp" data-wow-delay="0.4s">
+                                   <p>Геллер Егор</p>
+                                   <p>Рабков Влад </p>
+                                   <p>Керимов Даниил</p>
+                                   <p>Мирхосилов Элёр</p>
+                              </address>
+                         </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-8">
+                         <div class="footer-info footer-open-hour">
+                              <div class="section-title">
+                                   <h2 class="wow fadeInUp" data-wow-delay="0.2s">Руководитель</h2>
+                              </div>
+                              <div class="wow fadeInUp" data-wow-delay="0.4s">
+                                  
+                                   <div>
+                                        <strong>Пухова Полина Леонидовна</strong>
+                                        <p>ассистент, магистр техники и технологии</p>
+                                   </div>
+                                  
+                              </div>
+                         </div>
+                    </div>
+
+                    <div class="col-md-2 col-sm-4">
+                         <ul class="wow fadeInUp social-icon" data-wow-delay="0.4s">
+                              <li><a href="#" class="fa fa-facebook-square" attr="facebook icon"></a></li>
+                              <li><a href="#" class="fa fa-twitter"></a></li>
+                              <li><a href="#" class="fa fa-instagram"></a></li>
+                              <li><a href="#" class="fa fa-google"></a></li>
+                         </ul>
+
+                         <div class="wow fadeInUp copyright-text" data-wow-delay="0.8s"> 
+                              <p><br> &copy; 2018 Pizza Italiano 
+                              
+                         </div>
+                    </div>
+                    
+               </div>
+          </div>
+     </footer>
+
+
+     <!-- SCRIPTS -->
+     <script src="js/jquery.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+     <script src="js/jquery.stellar.min.js"></script>
+     <script src="js/wow.min.js"></script>
+     <script src="js/owl.carousel.min.js"></script>
+     <script src="js/jquery.magnific-popup.min.js"></script>
+     <script src="js/smoothscroll.js"></script>
+     <script src="js/custom.js"></script>
+
+</body>
+</html>
